@@ -5,8 +5,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.4</version>
-		<!--<version>2.7.12</version>-->
+
+		<version>3.2.4</version> 
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mayank.spingboot</groupId>
@@ -37,9 +37,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-				  <groupId>org.sonarsource.scanner.maven</groupId>
+<!-- 				  <groupId>org.sonarsource.scanner.maven</groupId>
    					 <artifactId>sonar-maven-plugin</artifactId>
-  				  <version>3.11.0.3922</version>
+			  <version>3.11.0.3922</version>  -->
+				<groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.4.0.905</version>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
